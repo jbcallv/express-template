@@ -1,0 +1,31 @@
+{
+  "name": "gpt-news-backend",
+  "version": "1.0.0",
+  "description": "API for GPT News app",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbcallv/gpt-news-backend.git"
+  },
+  "author": "Joseph Call",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbcallv/gpt-news-backend/issues"
+  },
+  "homepage": "https://github.com/jbcallv/gpt-news-backend#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.38.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "nodemon": "^2.0.22"
+  }
+}
